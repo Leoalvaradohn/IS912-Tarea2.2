@@ -30,7 +30,7 @@ class ContactDetailsScreen extends StatelessWidget {
           children: [
             CircleAvatar(
               radius: 70,
-              backgroundImage: AssetImage('assets/pascualito_avatar.png'), // Coloca la imagen del contacto en la carpeta 'assets'
+              backgroundImage: AssetImage('assets/pascualito_avatar.png'),
             ),
             SizedBox(height: 26),
             Text(
@@ -76,7 +76,7 @@ class ContactDetailsScreen extends StatelessWidget {
                     Row(
                       children: [
                         SvgPicture.asset(
-                          'assets/whatsapp_icon.svg', // Coloca el archivo SVG del icono de WhatsApp en la carpeta 'assets'
+                          'assets/whatsapp_icon.svg',
                           height: 0,
                           width: 0,
                         ),
@@ -89,7 +89,7 @@ class ContactDetailsScreen extends StatelessWidget {
                               child:Row(
                       children: [
                          SvgPicture.asset(
-                          'assets/phone_icon.svg', // Coloca el archivo SVG del icono de WhatsApp en la carpeta 'assets'
+                          'assets/phone_icon.svg',
                           height: 32,
                           width: 32,
                         ),
@@ -106,7 +106,7 @@ class ContactDetailsScreen extends StatelessWidget {
                               child: Row(
                                 children:[
                                   SvgPicture.asset(
-                                    'assets/whatsapp_icon.svg', // Coloca el archivo SVG del icono de WhatsApp en la carpeta 'assets'
+                                    'assets/whatsapp_icon.svg', 
                                     height: 26,
                                     width: 26,
                                   ),
@@ -120,7 +120,7 @@ class ContactDetailsScreen extends StatelessWidget {
                               child: Row(
                                 children: [
                                   SvgPicture.asset(
-                                    'assets/whatsapp_icon.svg', // Coloca el archivo SVG del icono de WhatsApp en la carpeta 'assets'
+                                    'assets/whatsapp_icon.svg',
                                     height: 26,
                                     width: 26,
                                   ),
@@ -134,7 +134,7 @@ class ContactDetailsScreen extends StatelessWidget {
                               child: Row(
                                 children: [
                                   SvgPicture.asset(
-                                    'assets/whatsapp_icon.svg', // Coloca el archivo SVG del icono de WhatsApp en la carpeta 'assets'
+                                    'assets/whatsapp_icon.svg',
                                     height: 26,
                                     width: 26,
                                   ),
@@ -150,7 +150,7 @@ class ContactDetailsScreen extends StatelessWidget {
                     Row(
                       children: [
                         SvgPicture.asset(
-                          'assets/telegram_icon.svg', // Coloca el archivo SVG del icono de Telegram en la carpeta 'assets'
+                          'assets/telegram_icon.svg', 
                           height: 0,
                           width: 0,
                         ),
@@ -163,7 +163,7 @@ class ContactDetailsScreen extends StatelessWidget {
                               child: Row(
                                 children: [
                                   SvgPicture.asset(
-                                    'assets/telegram_icon.svg', // Coloca el archivo SVG del icono de Telegram en la carpeta 'assets'
+                                    'assets/telegram_icon.svg',
                                     height: 26,
                                     width: 26,
                                   ),
@@ -177,7 +177,7 @@ class ContactDetailsScreen extends StatelessWidget {
                               child: Row(
                                 children: [
                                   SvgPicture.asset(
-                                    'assets/telegram_icon.svg', // Coloca el archivo SVG del icono de Telegram en la carpeta 'assets'
+                                    'assets/telegram_icon.svg', 
                                     height: 26,
                                     width: 26,
                                   ),
@@ -191,7 +191,7 @@ class ContactDetailsScreen extends StatelessWidget {
                               child: Row(
                                 children: [
                                   SvgPicture.asset(
-                                    'assets/telegram_icon.svg', // Coloca el archivo SVG del icono de Telegram en la carpeta 'assets'
+                                    'assets/telegram_icon.svg',
                                     height: 26,
                                     width: 26,
                                   ),
